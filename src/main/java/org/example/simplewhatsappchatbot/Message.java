@@ -1,8 +1,10 @@
 package org.example.simplewhatsappchatbot;
 
+
 public class Message {
     private String text;
     private  String sender;
+
     public Message(String message, String sender) {
         this.text = message;
         this.sender = sender;
@@ -23,6 +25,7 @@ public class Message {
     public void setSender(String sender) {
         this.sender = sender;
     }
+
 
     @Override
     public String toString() {
